@@ -65,7 +65,8 @@ const config: Config = {
       title: 'Qlarr Surveys',
       logo: {
         alt: 'Qlarr Surveys Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo-light.svg',
+        srcDark: 'img/logo-dark.svg',
       },
       items: [
         {
