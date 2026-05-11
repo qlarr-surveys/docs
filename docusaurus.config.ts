@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Qlarr Surveys',
+  title: 'Qlarr',
   tagline: 'Open-source framework for offline-first surveys across multiple platforms',
   favicon: 'img/favicon.ico',
 
@@ -62,9 +62,9 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Qlarr Surveys',
+      title: '',
       logo: {
-        alt: 'Qlarr Surveys Logo',
+        alt: 'Qlarr Logo',
         src: 'img/logo-light.svg',
         srcDark: 'img/logo-dark.svg',
       },
@@ -129,7 +129,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Qlarr Surveys. Licensed under AGPL-3.0. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Qlarr. Licensed under AGPL-3.0. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

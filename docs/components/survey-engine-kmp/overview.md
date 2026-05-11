@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Survey Engine (KMP) Overview
 
-The Survey Engine is the core processing layer of Qlarr Surveys, built using Kotlin Multiplatform (KMP). It is a UI-agnostic library that parses survey definitions and manages survey execution across all platforms.
+The Survey Engine is the core processing layer of Qlarr, built using Kotlin Multiplatform (KMP). It is a UI-agnostic library that parses survey definitions and manages survey execution across all platforms.
 
 ## Repository
 

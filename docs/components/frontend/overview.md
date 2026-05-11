@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Frontend Overview
 
-The Qlarr Surveys frontend is a React application that serves as both the survey design studio and the survey rendering interface for respondents.
+The Qlarr frontend is a React application that serves as both the survey design studio and the survey rendering interface for respondents.
 
 ## Repository
 

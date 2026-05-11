@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Deployment
 
-This guide covers deploying Qlarr Surveys (frontend + backend + PostgreSQL) on a cloud server with a custom domain and automatic TLS via Caddy.
+This guide covers deploying Qlarr (frontend + backend + PostgreSQL) on a cloud server with a custom domain and automatic TLS via Caddy.
 
 ## Prerequisites
 

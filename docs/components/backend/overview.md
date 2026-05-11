@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Backend Overview
 
-The Qlarr Surveys backend is a Spring Boot application providing REST APIs for survey management, execution, and data synchronization.
+The Qlarr backend is a Spring Boot application providing REST APIs for survey management, execution, and data synchronization.
 
 ## Repository
 

@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Randomization
 
-Qlarr Surveys supports randomizing the order of pages, questions, and answer options to reduce order bias in survey responses.
+Qlarr supports randomizing the order of pages, questions, and answer options to reduce order bias in survey responses.
 
 ## How It Works
 

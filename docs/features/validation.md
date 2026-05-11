@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Input Validation
 
-Qlarr Surveys provides built-in validation rules and support for custom validation expressions to ensure data quality.
+Qlarr provides built-in validation rules and support for custom validation expressions to ensure data quality.
 
 ## How It Works
 

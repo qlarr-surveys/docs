@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Offline Mode
 
-Qlarr Surveys supports offline-first data collection, allowing surveyors to collect responses in areas with poor or no internet connectivity.
+Qlarr supports offline-first data collection, allowing surveyors to collect responses in areas with poor or no internet connectivity.
 
 ## How It Works
 

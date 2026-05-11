@@ -4,13 +4,13 @@ sidebar_position: 1
 
 # Quick Start
 
-Get started with Qlarr Surveys and create your first survey in minutes.
+Get started with Qlarr and create your first survey in minutes.
 
 ## Overview
 
-This guide will walk you through creating, customizing, and deploying your first survey using the Qlarr Surveys cloud platform. The entire process takes just a few minutes.
+This guide will walk you through creating, customizing, and deploying your first survey using the Qlarr cloud platform. The entire process takes just a few minutes.
 
-Qlarr Surveys offers multiple ways to create surveys:
+Qlarr offers multiple ways to create surveys:
 - **AI-powered creation**: Describe your goals and let AI design your survey
 - **Visual editor**: Drag-and-drop interface for manual design
 - **JSON import**: Upload existing survey templates
@@ -28,7 +28,7 @@ Qlarr Surveys offers multiple ways to create surveys:
 
 ### Self-Hosted Version
 
-If you prefer to host Qlarr Surveys on your own infrastructure, see the self-hosted setup instructions in the component docs.
+If you prefer to host Qlarr on your own infrastructure, see the self-hosted setup instructions in the component docs.
 
 ## Creating Your First Survey
 

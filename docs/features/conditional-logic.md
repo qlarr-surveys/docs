@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Conditional Logic
 
-Qlarr Surveys supports conditional logic to control what respondents see based on their previous answers. This includes relevance conditions (show/hide), skip logic (jump to a different section), and advanced JavaScript expressions.
+Qlarr supports conditional logic to control what respondents see based on their previous answers. This includes relevance conditions (show/hide), skip logic (jump to a different section), and advanced JavaScript expressions.
 
 ## How It Works
 

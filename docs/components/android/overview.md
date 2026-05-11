@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Android App Overview
 
-The Qlarr Surveys Android app is a native mobile application for offline-first survey data collection.
+The Qlarr Android app is a native mobile application for offline-first survey data collection.
 
 ## Repository
 

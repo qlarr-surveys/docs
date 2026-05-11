@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # API Reference
 
-Complete reference for the Qlarr Surveys backend REST API. All endpoints are at the root level (no `/api/` prefix).
+Complete reference for the Qlarr backend REST API. All endpoints are at the root level (no `/api/` prefix).
 
 For authentication details, see [Authentication](/components/backend/overview#authentication).
 

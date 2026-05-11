@@ -4,11 +4,11 @@ sidebar_position: 1
 
 # Architecture Overview
 
-This section provides an overview of the Qlarr Surveys architecture and how different components interact.
+This section provides an overview of the Qlarr architecture and how different components interact.
 
 ## System Design
 
-Qlarr Surveys follows a modular architecture with clear separation of concerns:
+Qlarr follows a modular architecture with clear separation of concerns:
 
 ### Core Components
 

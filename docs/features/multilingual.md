@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Multi-Language Support
 
-Qlarr Surveys supports creating surveys in multiple languages, allowing respondents to switch between languages during the survey.
+Qlarr supports creating surveys in multiple languages, allowing respondents to switch between languages during the survey.
 
 ## Setting Up Languages
 
@@ -37,7 +37,7 @@ The survey can also be started in a specific language by passing the `lang` para
 
 ## Right-to-Left (RTL) Support
 
-Qlarr Surveys includes built-in RTL support for languages like Arabic (العربية). When an RTL language is active:
+Qlarr includes built-in RTL support for languages like Arabic (العربية). When an RTL language is active:
 
 - The entire survey layout mirrors (right-to-left reading direction)
 - Text alignment adjusts automatically

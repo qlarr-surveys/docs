@@ -1,4 +1,4 @@
-# Qlarr Surveys Documentation
+# Qlarr Documentation
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
@@ -6,7 +6,7 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 
 The documentation is organized into the following sections:
 
-- **Introduction**: Overview of Qlarr Surveys
+- **Introduction**: Overview of Qlarr
 - **Getting Started**: Quick start guides for users and developers
 - **Architecture**: System design and data model
 - **Components**: Documentation for each repository

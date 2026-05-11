@@ -3,13 +3,13 @@ sidebar_position: 1
 slug: /
 ---
 
-# Introduction to Qlarr Surveys
+# Introduction to Qlarr
 
-Welcome to the Qlarr Surveys documentation. Qlarr Surveys is an open-source framework for creating and deploying offline-first surveys across multiple platforms.
+Welcome to the Qlarr documentation. Qlarr is an open-source framework for creating and deploying offline-first surveys across multiple platforms.
 
-## What is Qlarr Surveys?
+## What is Qlarr?
 
-Qlarr Surveys enables you to build sophisticated survey applications that work seamlessly offline and across different platforms. The framework uses JSON to define UI-agnostic survey components and JavaScript for complex survey logic.
+Qlarr enables you to build sophisticated survey applications that work seamlessly offline and across different platforms. The framework uses JSON to define UI-agnostic survey components and JavaScript for complex survey logic.
 
 ## Key Features
 
@@ -24,7 +24,7 @@ Qlarr Surveys enables you to build sophisticated survey applications that work s
 
 ## Architecture Overview
 
-The Qlarr Surveys ecosystem consists of several interconnected components:
+The Qlarr ecosystem consists of several interconnected components:
 
 - **[Survey Engine (KMP)](/components/survey-engine-kmp/overview)**: Core processing layer built with Kotlin Multiplatform
 - **[Survey Engine Script](/components/survey-engine-script/overview)**: JavaScript validation and execution library
@@ -43,4 +43,4 @@ Choose your path based on your role:
 
 ## License
 
-All Qlarr Surveys repositories are licensed under AGPL-3.0.
+All Qlarr repositories are licensed under AGPL-3.0.
