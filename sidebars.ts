@@ -16,7 +16,15 @@ const sidebars: SidebarsConfig = {
   docsSidebar: [
     'intro',
     'guides/quick-start',
-    'guides/deployment',
+    {
+      type: 'category',
+      label: 'Deployment',
+      link: {type: 'doc', id: 'guides/deployment/index'},
+      items: [
+        'guides/deployment/local',
+        'guides/deployment/cloud',
+      ],
+    },
     {
       type: 'category',
       label: 'Architecture',

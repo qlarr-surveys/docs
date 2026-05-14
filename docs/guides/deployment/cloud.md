@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Deployment
+# Cloud Deployment
 
 This guide covers deploying Qlarr (frontend + backend + PostgreSQL) on a cloud server with a custom domain and automatic TLS via Caddy.
 
