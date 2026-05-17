@@ -15,6 +15,7 @@ Qlarr enables you to build sophisticated survey applications that work seamlessl
 
 ## Key Features
 
+- **Survey as Code**: Author surveys in JSON + JavaScript — the [engine](/components/survey-engine-kmp/overview) compiles, validates, and builds dependency graphs that run identically on web, Android, and iOS
 - **[Offline-First](/features/offline-mode)**: Collect data even without internet connectivity
 - **[Rich Question Types](/features/question-types)**: Text, choice, matrix, date/time, media capture, ranking, and more
 - **Cross-Platform**: Deploy surveys on web, Android, and iOS (coming soon)
