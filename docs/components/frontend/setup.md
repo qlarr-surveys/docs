@@ -14,8 +14,7 @@ sidebar_position: 2
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/qlarr-surveys/frontend.git
-cd frontend
+git clone https://github.com/qlarr-surveys/frontend.git && cd frontend
 ```
 
 2. Install dependencies:

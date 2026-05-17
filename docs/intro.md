@@ -5,6 +5,8 @@ slug: /
 
 # Introduction to Qlarr
 
+[Discord 💬](https://discord.gg/9mbRh6SpGj) | [Demo 🖥️](https://console.qlarr.com/) | [Deploy Locally in 30 Sec! 🚀](https://qlarr-surveys.github.io/docs/guides/deployment/local)
+
 Welcome to the Qlarr documentation. Qlarr is an open-source framework for creating and deploying offline-first surveys across multiple platforms.
 
 ## What is Qlarr?

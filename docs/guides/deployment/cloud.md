@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Cloud Deployment
 
-This guide covers deploying Qlarr (frontend + backend + PostgreSQL) on a cloud server with a custom domain and automatic TLS via Caddy.
+Deploy Qlarr (frontend + backend + PostgreSQL) on a cloud server with a custom domain and automatic TLS via Caddy.
 
 ## Prerequisites
 
@@ -35,13 +35,15 @@ In your domain registrar's DNS settings:
 
 Verify with: `dig +short your-domain.com`
 
-## Step 3: Server Setup
-
-SSH into your server and install Docker:
+## Step 3: SSH into Server
 
 ```bash
 ssh ubuntu@your-server-ip
+```
 
+## Step 4: Install Docker
+
+```bash
 sudo apt update && sudo apt upgrade -y
 curl -fsSL https://get.docker.com | sh
 sudo usermod -aG docker ubuntu
@@ -57,7 +59,7 @@ docker compose version
 sudo apt install docker-compose-plugin -y
 ```
 
-Configure the firewall:
+## Step 5: Configure Firewall
 
 ```bash
 sudo ufw allow 22/tcp
@@ -66,19 +68,17 @@ sudo ufw allow 443/tcp
 sudo ufw enable
 ```
 
-## Step 4: Transfer Deployment Files
+## Step 6: Get Deployment Files
 
-The deployment files are in the `deploy/` directory of the [frontend repository](https://github.com/qlarr-surveys/frontend):
+Clone the frontend repository on the server:
 
 ```bash
-scp -r deploy/ ubuntu@your-server-ip:~/deploy
+git clone https://github.com/qlarr-surveys/frontend.git && cd frontend/deploy
 ```
 
-## Step 5: Create Environment File
+## Step 7: Create Environment File
 
 ```bash
-cd ~/deploy
-
 cat > .env << 'EOF'
 CADDY_FRONTEND_HOSTNAME=your-domain.com
 CADDY_API_HOSTNAME=api.your-domain.com
@@ -105,11 +105,16 @@ Generate a secure JWT secret:
 openssl rand -base64 32
 ```
 
-## Step 6: Deploy
+## Step 8: Deploy
 
 ```bash
-cd ~/deploy
 docker compose up -d
+```
+
+Verify the containers are running:
+
+```bash
+docker compose ps
 ```
 
 First run: Caddy provisions the TLS certificate automatically (may take ~30 seconds). Access your survey platform at `https://your-domain.com`.
@@ -150,10 +155,15 @@ Caddy serves the frontend and reverse-proxies API requests to the backend. The b
 ### Update Deployment
 
 ```bash
-cd ~/deploy
 docker compose down
 docker compose pull
 docker compose up -d
+```
+
+### View Resource Usage
+
+```bash
+docker stats
 ```
 
 ### Backup Database
@@ -199,6 +209,19 @@ docker compose logs -f postgres-db  # database only
 ```bash
 docker compose down -v
 docker compose up -d
+```
+
+### DNS Not Resolving
+
+```bash
+dig +short your-domain.com
+```
+
+### Port Already in Use
+
+```bash
+sudo lsof -i :80
+sudo lsof -i :443
 ```
 
 ### TLS Certificate Issues
